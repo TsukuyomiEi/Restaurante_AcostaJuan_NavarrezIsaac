@@ -10,7 +10,6 @@ function App() {
       <div className="container-fluid">
         <BrowserRouter>
           <Cabecera />
-
           <Ruteo />
         </BrowserRouter>
       </div>

@@ -5,25 +5,26 @@ export const Acerca = () => {
         <h1>Acerca de Nosotros</h1>
         <p>
           Bienvenidos a nuestro restaurante, un lugar donde los sabores
-          auténticos de la cocina china se combinan con el arte de la
-          hospitalidad. Nuestro objetivo es brindarte una experiencia
-          gastronómica que capture la esencia de la tradición culinaria china,
-          desde platos clásicos hasta nuevas creaciones inspiradas en la rica
-          herencia de nuestra cultura.
+          auténticos de la cocina colombiana se fusionan en un solo espacio.
+          Desde las costas caribeñas hasta las tierras andinas, nuestro menú te
+          invita a un recorrido por las regiones más representativas de Colombia.
+          Disfruta de una experiencia culinaria única, donde cada plato cuenta
+          una historia llena de tradición, frescura y pasión por la gastronomía.
         </p>
         <p>
           Cada uno de nuestros platillos está preparado con ingredientes frescos
           y de alta calidad, seleccionados cuidadosamente para ofrecerte lo
-          mejor de nuestra gastronomía. Ya sea que disfrutes de nuestros famosos
-          dumplings, el crujiente pato pekinés o el delicioso arroz frito,
-          encontrarás en cada bocado una explosión de sabor y un viaje a las
-          auténticas calles de China.
+          mejor de nuestra cultura. Ya sea que te apasione el sancocho valluno, la
+          arepa antioqueña, o la bandeja paisa, en cada bocado experimentarás la
+          riqueza de nuestros sabores tradicionales, preparados con dedicación y
+          el toque especial de la cocina colombiana.
         </p>
         <p>
-          Acompáñanos y descubre una experiencia única, donde la calidez del
-          ambiente y el sabor auténtico de nuestros platillos harán de tu visita
-          un momento especial. ¡Estamos aquí para compartir nuestra pasión por
-          la cocina china contigo y tu familia!
+          Acompáñanos y disfruta de un ambiente cálido y acogedor, donde el
+          sabor de nuestra tierra y la hospitalidad de nuestro personal te harán
+          sentir como en casa. ¡Estamos aquí para compartir contigo nuestra
+          pasión por la cocina colombiana y brindarte una experiencia única y
+          memorable!
         </p>
       </div>
     </>
