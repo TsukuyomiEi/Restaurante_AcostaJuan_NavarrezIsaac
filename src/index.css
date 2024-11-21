@@ -1,23 +1,168 @@
+.inicio-background {
+    background-image: url('../src/assets/img/wall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .rojito {
     color: #a94747;
   }
-  
-  .verde {
+
+.verde {
     color: #1b8c19;
   }
-  
-  .imagenListado {
+
+.imagenListado {
     width: 70px;
     height: auto;
   }
-  
-  .maximoTamanoCreacion {
+
+.maximoTamanoCreacion {
     width: 350px;
     height: auto;
   }
-  
-  .maximoTamanoGrande {
+
+.maximoTamanoGrande {
     width: 450px;
     height: auto;
   }
-  
+
+.restaurant-card {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #343a40;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+  }
+
+p, a, li, span {
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* Estilos para las tablas */
+.table, .table th, .table td, .table tbody, .table thead { /* Fuente en tablas */
+    font-family: 'Poppins', sans-serif;
+  }
+.table {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+.table thead {
+    background-color: #343a40;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+  }
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+  }
+
+.imagenListado {
+    max-width: 80px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.table td {
+    vertical-align: middle;
+  }
+
+.table th, .table td {
+    text-align: center;
+  }
+
+/* Estilos Navbar */
+.navbar-custom {
+    background-color: #DB4054;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.navbar-logo {
+    max-height: 50px;
+    border-radius: 5px;
+  }
+
+.navbar-toggler {
+    background-color: #e0e0e0;
+    border: none;
+  }
+
+.navbar-toggler-icon {
+    filter: brightness(0.5);
+  }
+
+.nav-link {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+.nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+.dropdown-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.dropdown-item.active {
+    background-color: red;
+    color: #343a40;
+  }
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+
+.about-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 30px;
+    border-radius: 15px;
+    color: black; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: justify;
+}
+
+.about-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d2d2d; 
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #4a4a4a;
+}
